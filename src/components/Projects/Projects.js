@@ -2,10 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import leaf from "../../Assets/Projects/vie.png";
+import editor from "../../Assets/Projects/crud.png";
+import chatify from "../../Assets/Projects/cylo.png";
+import bitsOfCode from "../../Assets/Projects/forms.png";
+import cv from "../../Assets/Projects/cv.png";
+
+
 
 function Projects() {
   return (
@@ -62,6 +65,18 @@ function Projects() {
               demoLink="https://vie-by-noman.vercel.app/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cv}
+              isBlog={false}
+              title="Modern CV Template (HTML & CSS)"
+              description="A clean and professional CV template built with HTML and CSS. It features a responsive design, well-structured layout, and easy customization. Ideal for showcasing experience, skills, and contact details in a sleek and organized format. Perfect for job seekers and professionals."
+              ghLink="https://github.com/devnoman434/cv"
+              demoLink="https://cv-six-puce-73.vercel.app/"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
