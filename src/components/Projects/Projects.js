@@ -7,7 +7,7 @@ import editor from "../../Assets/Projects/crud.png";
 import chatify from "../../Assets/Projects/cylo.png";
 import bitsOfCode from "../../Assets/Projects/forms.png";
 import cv from "../../Assets/Projects/cv.png";
-
+import dynamic from "../../Assets/Projects/dynamic.png";
 
 
 function Projects() {
@@ -51,7 +51,7 @@ function Projects() {
               title="CRUD Basics"
               description="Master the four core operations of data management—Create, Read, Update, and Delete—with easy-to-follow tutorials and examples. Whether you're a beginner or refreshing your skills, this website helps you build, manage, and interact with data in real-world projects. Start learning CRUD today!"
               ghLink="https://github.com/devnoman434/crud"
-              demoLink="https://crudbasics.vercel.app/"        
+              demoLink="https://crudbasics.vercel.app/"
             />
           </Col>
 
@@ -77,6 +77,16 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dynamic}
+              isBlog={false}
+              title="Dynamic Resume Builder"
+              description="A Dynamic Resume Builder using HTML, CSS, and JavaScript lets users create and customize resumes in real-time. Users can input their details, see live updates, and download a polished resume ready for job applications."
+              ghLink="https://github.com/devnoman434/dynamic_resume"
+              demoLink="https://dynamic-resume-theta-topaz.vercel.app/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
